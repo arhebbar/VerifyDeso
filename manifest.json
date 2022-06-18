@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+
+  "name": "DESO Verifier",
+  "description": "DESO Verification Chrome Extension that helps show user verification status and key metrics.",
+  "version": "1.0",
+
+  "background": {
+    "service_worker": "eventPage.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bitclout.com/u/*",
+        "https://diamondapp.com/u/*",
+        "https://desocialworld.com/u/*",
+        "https://love4src.com/u/*",
+        "https://nachoaveragecall.com/u/*"
+      ],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ],
+  "host_permissions": [
+    "https://bitclout.com/u/*",
+    "https://diamondapp.com/u/*",
+    "https://desocialworld.com/u/*",
+    "https://love4src.com/u/*",
+    "https://nachoaveragecall.com/u/*"
+  ]
+}

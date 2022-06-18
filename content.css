@@ -1,0 +1,78 @@
+#opbolte {
+  margin: 10px 0px 10px 5px;
+  width: 23.5px;
+  height: 21.5px;
+  border-radius: 50%;
+}
+
+#opbolte:hover{
+  cursor:pointer;
+  width: 25.5px;
+  height: 23.5px;
+
+}
+
+#opbolte2 {
+  margin: 10px 10px 10px 5px;
+  width: 23.5px;
+  height: 21.5px;
+  border-radius: 50%;
+}
+
+#opbolte2:hover{
+  cursor:pointer;
+  width: 25.5px;
+  height: 23.5px;
+  
+}
+
+#description {
+  background-color: #343a40;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  visibility: hidden;
+  font-family: "Roboto";
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10%;
+  position: absolute;
+  z-index: 100;
+  margin-left: 70px;
+  margin-top: 180px;
+}
+
+
+#description2 {
+  background-color: #343a40;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  visibility: hidden;
+  font-family: "Roboto";
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10%;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 70px;
+  z-index: 100;
+}
+
+#description3 {
+  background-color: #343a40;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  visibility: hidden;
+  font-family: "Roboto";
+  padding: 8px;
+  border-radius: 10%;
+  position: absolute;
+  z-index: 100;
+  margin-left: 130px;
+  margin-top: 140px;
+  max-width: 200px;
+  max-height: 120px;
+  text-align: center;
+}
